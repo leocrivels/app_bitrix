@@ -4,10 +4,10 @@ O CRUD é responsável por criar, consultar, atualizar e deletar Empresas e Cont
 Também é capaz de interceptar eventos do tipo "Negócio atualizado" e, caso seja ganho, somar o valor do negócio à receita da empresa relacionada.
 
 # Comportamento
-##Tela inicial
+## Tela inicial
 Lista todas as Empresas com seus respectivos contatos, com ações para editá-los ou remove-los.
 
-##Tela de cadastro
+## Tela de cadastro
 Ao se entrar na tela de cadastro são requisitados os campos nome, nome da empresa, email, telefone, cnpj e cpf.
 É feita uma verificação se o CNPJ já existe. 
 Caso exista a empresa será atualizada com os novos dados de nome da empresa, caso não exista ela é criada.
@@ -15,7 +15,7 @@ Caso exista a empresa será atualizada com os novos dados de nome da empresa, ca
 Caso exista o contato será atualizado com os novos dados de nome, email e telefone, caso não exista ele é criado.
 No fim do processo o Contato é adicionado à empresa e vice-versa.
 
-##Telas de edição
+## Telas de edição
 Apresenta os dados atuais da empresa ou contato em campos para alteração.
 
 ---
