@@ -68,7 +68,7 @@ crm.contact.delete | crm.company.delete
 crm.contact.company.add | crm.company.contact.add
 crm.contact.userfield.list | crm.company.userfield.list
 crm.contact.userfield.add  | crm.company.userfield.add
-                            | crm.company.contact.items.get
+                            | crm.company.contact.items.get |
 
 ## Webhook de Saída
 Webhooks de saída foram utilizados para criar um event listener para negócios atualizdos.
